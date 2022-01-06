@@ -1,22 +1,23 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 5% 5% 0;
+    margin-top: 5%;
 }
 
 h1 {
     font-size: 50px;
-    font-weight: 700;
-
+}
+h2{
+    font-size: 35px;
 }
 h3{
     font-size: 25px;
 }
-
 p {
     font-size: 20px;
 }
 section{
     margin-bottom: 100px;
+    margin-left: 5%;
 }
 
 .flex-section {
@@ -35,11 +36,10 @@ section{
 
 .half-width {
     width: 50%;
-    margin-left: 5%;
 }
 
 img {
-    width: 80%;
+    width: 60%;
 }
 
 .link-btn {
@@ -58,9 +58,7 @@ img {
 .text-center{
     text-align: center;
 }
-.mission-section{
 
-}
 .mission-section img{
     width: 30%;
 }
@@ -78,4 +76,14 @@ img {
     margin-right: 80px;
     padding: 30px;
 }
+footer {
+    text-align: center;
+    background-color: #0A0D17;
+    padding: 10px;
+    color: white;
+}
+footer h1{
+    font-family: 'Libre Baskerville', serif;
+}
+
 
