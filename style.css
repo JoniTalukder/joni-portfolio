@@ -87,6 +87,22 @@ img {
     padding: 30px;
 }
 
+.shapes-img {
+    position: absolute;
+    top: 60px;
+    left: -75px;
+    width: 15%;
+    z-index: -1;
+}
+
+.shapes-img2 {
+    position: absolute;
+    bottom: -80px;
+    right: 200px;
+    width: 15%;
+    z-index: -1;
+}
+
 footer,
 .contact-us {
     text-align: center;
@@ -116,4 +132,8 @@ footer {
 
 footer h1 {
     font-family: 'Libre Baskerville', serif;
+}
+
+.develop-section {
+    position: relative;
 }
