@@ -1,4 +1,81 @@
 body {
-    font-family: 'Oranienbaum', serif;
     font-family: 'Poppins', sans-serif;
+    margin: 5% 5% 0;
 }
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+
+}
+h3{
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+section{
+    margin-bottom: 100px;
+}
+
+.flex-section {
+    display: flex;
+}
+
+.top-section h1 {
+    font-family: 'Libre Baskerville', serif;
+    border-left: 5px solid orange;
+    padding-left: 10px;
+}
+
+.red-color {
+    color: red;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 5%;
+}
+
+img {
+    width: 80%;
+}
+
+.link-btn {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.about {
+    margin-top: 50px;
+}
+.text-center{
+    text-align: center;
+}
+.mission-section{
+
+}
+.mission-section img{
+    width: 30%;
+}
+#mission{
+    background-color: #EBF5F6;
+}
+#vision{
+    background-color: #FFEDED;
+}
+#goals{
+   background-color: #FFF4D6;
+}
+.box-color {
+    border-radius: 20px;
+    margin-right: 80px;
+    padding: 30px;
+}
+
