@@ -1,21 +1,26 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin-top: 5%;
+    margin: 5% 0 0;
+    padding: 0;
 }
 
 h1 {
     font-size: 50px;
 }
-h2{
+
+h2 {
     font-size: 35px;
 }
-h3{
+
+h3 {
     font-size: 25px;
 }
+
 p {
     font-size: 20px;
 }
-section{
+
+section {
     margin-bottom: 100px;
     margin-left: 5%;
 }
@@ -55,35 +60,60 @@ img {
 .about {
     margin-top: 50px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
-.mission-section img{
+.mission-section img {
     width: 30%;
 }
-#mission{
+
+#mission {
     background-color: #EBF5F6;
 }
-#vision{
+
+#vision {
     background-color: #FFEDED;
 }
-#goals{
-   background-color: #FFF4D6;
+
+#goals {
+    background-color: #FFF4D6;
 }
+
 .box-color {
     border-radius: 20px;
     margin-right: 80px;
     padding: 30px;
 }
-footer {
+
+footer,
+.contact-us {
     text-align: center;
+}
+
+input {
+    width: 40%;
+    padding: 10px;
+    border-color: red;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    width: 20%;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 5px solid red;
+}
+
+footer {
     background-color: #0A0D17;
     padding: 10px;
     color: white;
 }
-footer h1{
+
+footer h1 {
     font-family: 'Libre Baskerville', serif;
 }
-
-
